@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Expense Tracker</title>
+    <link rel="stylesheet" href="onePager.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Expense Tracker</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#income">Income</a></li>
+                    <li><a href="#expense">Expense</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to the Expense Tracker</h2>
+            <p>Track your income and expenses to manage your finances better. Navigate to the Income and Expense pages to enter your financial details.</p>
+            <div class="nav-buttons">
+                <a href="#income" class="button">Enter Income</a>
+                <a href="#expense" class="button">Enter Expenses</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="income">
+        <div class="container">
+            <h2>Income</h2>
+            <form>
+                <label for="monthlyIncome">Monthly Income:</label>
+                <input type="number" id="monthlyIncome" name="monthlyIncome" placeholder="Enter your monthly income">
+            </form>
+        </div>
+    </section>
+
+    <section id="expense">
+        <div class="container">
+            <h2>Expense</h2>
+            <form>
+                <label for="weeklyExpenses">Weekly Expenses:</label>
+                <input type="number" id="weeklyExpenses" name="weeklyExpenses" placeholder="Enter your weekly expenses">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Expense Tracker. All rights reserved.</p>
+        </div>
+    </footer> 
+</body>
+</html>
